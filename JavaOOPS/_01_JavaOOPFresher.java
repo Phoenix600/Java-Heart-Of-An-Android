@@ -1,4 +1,4 @@
-class FirstClass
+class FirstClass1
 {
     String fname;
     String lname;
@@ -26,7 +26,7 @@ public class _01_JavaOOPFresher
      */ 
    public static void main(String...args)
    {
-        FirstClass ET20001 = new FirstClass();    
+        FirstClass1 ET20001 = new FirstClass1();    
         ET20001.setData("Pranay", "Ramteke");
         ET20001.getData();
 
