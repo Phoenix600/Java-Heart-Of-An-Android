@@ -17,3 +17,13 @@ static void setData(int[] arr, int len);
 * <b> static </b> means that the method belongs to the Main class and not an object of the Main class. You will learn more about objects and how to access methods through objects later in this tutorial.
 
 * static member-function or fields can be accessed directly without creating the object
+
+# Arguments And Parameter 
+
+```java 
+    static void sayHello(String fname)
+```
+
+When a parameter is passed to the method, it is called an argument. So, from the example above: fname is a parameter, while Liam, Jenny and Anja are arguments.
+
+
