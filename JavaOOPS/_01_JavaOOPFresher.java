@@ -20,8 +20,6 @@ class FirstClass1
 public class _01_JavaOOPFresher
 {
     /**
-     * #TODO: Added new code for class creation 
-     * #FIXME: Code should be optimized
      * @param args
      */ 
    public static void main(String...args)

@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 
+
 class Student
 {
     static final int SIZE = 5;
