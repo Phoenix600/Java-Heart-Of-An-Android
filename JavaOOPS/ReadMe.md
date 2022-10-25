@@ -10,6 +10,5 @@ An entity that has state and behaviour is known as object.
 # Coupling 
 * Coupling refer to the knowledge or information or dependency of another class.
 * It arises when the classes are aware of each other. 
-* If a class has strong information about 
-
-
+* If a class has detailed information of another class, there is a string coupling.
+* In 
