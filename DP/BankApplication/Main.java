@@ -115,7 +115,12 @@ class ReserveBank
       for(int i=0; i< DataBase.size(); i++)
       {
           if(key == DataBase.get(i).accountNumber)
-            flag = true; index = i ;break;
+          { 
+            flag = true; 
+            index = i;
+            break;
+          }
+
       }
 
       if(flag)
@@ -131,7 +136,26 @@ class ReserveBank
 
   void deposit()
   {
-      System.out.println("[]");
+      Scanner Input = new Scanner(System.in);
+      System.out.println("[+]Enter account number : ");
+      int key = Input.nextInt();
+      int index;
+      boolean flag = false;
+
+      // 0(N) in Worst-Case 
+      for(int i=0; i< DataBase.size(); i++)
+      {
+        if(key == DataBase.get(i).accountNumber)
+        { 
+          index = i;
+          flag = true;
+          break;
+        }
+      }
+
+      if()
+
+
   }
 
 }
@@ -140,7 +164,7 @@ public class Main
 {
     public static void main(String...args)
     {
-
+      
     }
 }
 
