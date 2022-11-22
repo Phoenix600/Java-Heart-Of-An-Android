@@ -42,6 +42,34 @@ class Write
 }
 
 
+class PrinterClass
+{
+  String str = "This is default string to printed";
+
+  void outputData()
+  {
+    try{
+      FileOutputStream fos = new FileOutputStream("sample1.txt");
+      ByteArrayOutputStream baos = new ByteArrayOutputStream();
+
+      baos.write(str.getBytes());
+      baos.writeTo(fos);
+      baos.flush();
+      baos.close();
+
+    }catch(Exception e)
+    {
+      e.printStackTrace();
+    }
+  }
+  
+  public PrinterClass(String str)
+  {
+    this.str = str;
+    outputData();
+  }
+}
+
 class MyScanner 
 {
   String str;
@@ -83,8 +111,10 @@ class Main
     // W.WriterEvent();
 
   
-    MyScanner Scanner = new MyScanner("The most blessed ones, are the most cursed ones\n");
-    Scanner.readHandler();
+    // MyScanner Scanner = new MyScanner("The most blessed ones, are the most cursed ones\n");
+    // Scanner.readHandler();
+
+    PrinterClass PrintFile = new PrinterClass("Life's Mess");
 
   }
 }
