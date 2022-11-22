@@ -1,15 +1,29 @@
 import java.util.Scanner;
 
 class TrustCafeForCustomers {
-    // This string and qtyAndPrice array is comman to all objects, no new copy is
-    // created
+    // This string and qtyAndPrice array is comman to all objects, no new copy is created
     static String[] items;
     static String[] localItems;
     static int[][] qtyAndPrice;
+    
+    // object variables
+    int choice;
+    int bill;
+    int Tip = 0;
 
     public TrustCafeForCustomers() {
         init();
         printMenu();
+    }
+
+
+    void takeOrder()
+    {
+      Scanner input = new Scanner(System.in);
+      
+      
+
+      input.close();
     }
 
     private void init() {
