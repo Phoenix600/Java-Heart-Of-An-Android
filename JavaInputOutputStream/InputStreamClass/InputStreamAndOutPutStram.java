@@ -67,5 +67,27 @@ for the data from the inputStream java provides some, member function :
 
         ####################### OUTPUT STREAM METHODS #####################
         
+        When program is going to write on the resource, we need outputStream 
+        
+        1) write(int b) 
+            Writes just one byte of data to the resource 
+        
+        2) write(byte[] b)
+            Writes the byte[] array 
+        
+        3) write(byte[] b, int OFSET, int len)
+            Writes the bytes data from the particular index and how many bytes you want to write 
+        
+        4) flush()
+            this will not work on all output stream, this will work on buffered output stream.
+            The data that is written, is kept inside the buffer, And if you want to push that data 
+            into resource the you have to use the flush.
+
+            Flush means it will flush the data from the buffer to  output stream
+            It will force the data to flow out the from the buffer to reach the resource.
+        5) close()
+            Once you finished the working with stream, it a good practice to close it
+ 
+         
 
   */
