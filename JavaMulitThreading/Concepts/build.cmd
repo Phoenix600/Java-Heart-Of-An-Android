@@ -1,0 +1,1 @@
+@REM  Removed the content from the cmd file, causing the permission errors
