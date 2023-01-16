@@ -1,0 +1,19 @@
+interface Addable 
+{
+	int add(int a, int b);
+}
+
+public class JavaLambdaExp4
+{
+	public static void main(String[] args)
+	{
+
+		Addable ad1 = (int A,int B)->(A+B);
+		System.out.print(ad1.add(12,14));
+
+
+		Addable ad2 = (int A,int B)->(A+B);
+		System.out.print(ad2.add(19,20));
+	}
+}
+

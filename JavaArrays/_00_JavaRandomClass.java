@@ -6,7 +6,7 @@ import java.util.Random;
        [] Generate the array of boolean values 
        [] Generate the array of radnom byes using the arrays
 */
-public class _01_JavaRandomClass
+class Main
 {
     static void printArray(boolean[] arr, int size)
     {
